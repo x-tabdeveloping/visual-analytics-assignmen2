@@ -1,0 +1,6 @@
+scikit-learn
+tensorflow
+pillow
+plotly
+numpy
+kaleido
