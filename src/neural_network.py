@@ -16,7 +16,7 @@ def main():
 
     print("Training Neural Network classifier.")
     classifier = make_pipeline(
-        StandardScaler(), MLPClassifier((50, 50), max_iter=300, random_state=42)
+        StandardScaler(), MLPClassifier((100,), max_iter=300, random_state=42)
     )
     classifier.fit(X_train, y_train)
 
